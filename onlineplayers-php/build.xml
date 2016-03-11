@@ -29,9 +29,15 @@
     </target>
 
     <!-- ============================================  -->
-    <!-- Target: Rebuild                               -->
+    <!-- Target: Clean                               -->
     <!-- ============================================  -->
     <target name="clean" description="Cleans build files">
         <delete dir="${builddir}" />
+    </target>
+
+    <!-- ============================================  -->
+    <!-- Target: Verify                               -->
+    <!-- ============================================  -->
+    <target name="verify" description="verifies build files">
     </target>
 </project>
